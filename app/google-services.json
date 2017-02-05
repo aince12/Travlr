@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "334104402842",
+    "firebase_url": "https://travlr-d2add.firebaseio.com",
+    "project_id": "travlr-d2add",
+    "storage_bucket": "travlr-d2add.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:334104402842:android:9c2f505f853c89e5",
+        "android_client_info": {
+          "package_name": "app.twinstartech.travlr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "334104402842-s15md4ahtaeihd9lu6jvbg7g64srelpr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANXPGUUs233Q4O3vZJCD05tlmdN1owcjQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -15,18 +15,14 @@
             android:value="@string/facebook_app_id" />
 
         <activity
-            android:name=".activities.SplashActivity"
-            android:theme="@style/AppTheme.NoActionBar.FullScreen">
+            android:name=".activities.LoginActivity"
+            android:screenOrientation="portrait" android:theme="@style/AppTheme.NoActionBar.FullScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".activities.LoginActivity"
-            android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar.FullScreen" />
         <activity android:name=".activities.HomeActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar.FullScreen"/>

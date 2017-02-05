@@ -30,7 +30,8 @@
             android:textAllCaps="false"
             android:layout_marginTop="10dp"
             android:background="#3B5998"
-            android:textColor="@android:color/white"/>
+            android:textColor="@android:color/white"
+            android:visibility="gone"/>
 
 
     </LinearLayout>
