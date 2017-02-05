@@ -13,5 +13,10 @@ public class Constants {
     public static Profile currentProfile;
 
     public static String menu_titles[] = { "Wall", "Travels", "Buds", "Settings" };
-    public static int menu_icons[] = { R.mipmap.ic_card_travel_black, R.mipmap.ic_airplane_black, R.mipmap.ic_people_black, R.mipmap.ic_settings_black };
+    public static int menu_icons[] = {
+            R.mipmap.ic_card_travel_white,
+            R.mipmap.ic_airplane_white,
+            R.mipmap.ic_people_white,
+            R.mipmap.ic_settings_white
+    };
 }

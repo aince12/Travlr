@@ -14,6 +14,7 @@ import com.special.ResideMenu.ResideMenu;
 import com.special.ResideMenu.ResideMenuItem;
 
 import app.twinstartech.travlr.R;
+import app.twinstartech.travlr.fragments.SettingsFragment;
 import app.twinstartech.travlr.fragments.WallFragment;
 import app.twinstartech.travlr.tools.Constants;
 import butterknife.BindView;
@@ -26,6 +27,7 @@ public class HomeActivity extends TravlrActivity {
 
 
 
+    private int currentPage = 0;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -72,6 +74,20 @@ public class HomeActivity extends TravlrActivity {
 
     void openMenuItem(int index){
 
+        resideMenu.closeMenu();
+
+        if(currentPage==index)
+            return;
+        switch (index){
+            case 0:
+                openFragment(new WallFragment());
+                break;
+            case 3:
+                openFragment(new SettingsFragment());
+                break;
+            default:break;
+        }
+        currentPage=index;
     }
 
 
