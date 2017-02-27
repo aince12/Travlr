@@ -17,14 +17,27 @@
         <FrameLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
-            <com.mikhaellopez.circularimageview.CircularImageView
-                android:id="@+id/civProfileImage"
-                android:layout_gravity="center"
-                android:layout_width="150dp"
-                android:layout_height="150dp"
-                app:civ_border_color="#000"
-                app:civ_border_width="4dp"
-                app:civ_shadow="false"/>
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+                <com.mikhaellopez.circularimageview.CircularImageView
+                    android:id="@+id/civProfileImage"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    app:civ_border_color="#000"
+                    app:civ_border_width="4dp"
+                    app:civ_shadow="false"/>
+                <android.support.design.widget.FloatingActionButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:fabSize="mini"
+                    android:layout_gravity="bottom|end"
+                    app:backgroundTint="@android:color/holo_red_dark"
+                    android:src="@mipmap/ic_file_upload_white"
+                    android:id="@+id/fabUpload"/>
+            </FrameLayout>
+
         </FrameLayout>
         <TextView
             android:id="@+id/tvName"
